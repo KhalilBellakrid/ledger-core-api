@@ -5,13 +5,13 @@
 #define DJINNI_GENERATED_NJSSTRINGCALLBACK_HPP
 
 
-#include "../../../../core/src/ledger-core-source-api/api/../../utils/optional.hpp"
-#include "../../../../core/src/ledger-core-source-api/api/Error.hpp"
+#include "../cpp/../../../../core/src/utils/optional.hpp"
+#include "../cpp/Error.hpp"
 #include <string>
 
 #include <nan.h>
 #include <node.h>
-#include "../../../../core/src/ledger-core-source-api/api/StringCallback.hpp"
+#include "../cpp/StringCallback.hpp"
 
 using namespace v8;
 using namespace node;

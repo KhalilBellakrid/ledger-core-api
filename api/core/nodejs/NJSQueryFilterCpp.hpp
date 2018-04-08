@@ -5,8 +5,8 @@
 #define DJINNI_GENERATED_NJSQUERYFILTER_HPP
 
 
-#include "../../../../core/src/ledger-core-source-api/api/OperationType.hpp"
-#include "../../../../core/src/ledger-core-source-api/api/TrustLevel.hpp"
+#include "../cpp/OperationType.hpp"
+#include "../cpp/TrustLevel.hpp"
 #include "NJSAmountCpp.hpp"
 #include <chrono>
 #include <cstdint>
@@ -15,7 +15,7 @@
 
 #include <nan.h>
 #include <node.h>
-#include "../../../../core/src/ledger-core-source-api/api/QueryFilter.hpp"
+#include "../cpp/QueryFilter.hpp"
 
 using namespace v8;
 using namespace node;

@@ -5,7 +5,7 @@
 #define DJINNI_GENERATED_NJSACCOUNT_HPP
 
 
-#include "../../../../core/src/ledger-core-source-api/api/WalletType.hpp"
+#include "../cpp/WalletType.hpp"
 #include "NJSAmountCallback.hpp"
 #include "NJSAmountCpp.hpp"
 #include "NJSBlockCallback.hpp"
@@ -21,7 +21,7 @@
 
 #include <nan.h>
 #include <node.h>
-#include "../../../../core/src/ledger-core-source-api/api/Account.hpp"
+#include "../cpp/Account.hpp"
 
 using namespace v8;
 using namespace node;

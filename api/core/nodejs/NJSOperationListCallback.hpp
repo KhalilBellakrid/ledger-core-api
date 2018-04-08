@@ -5,16 +5,16 @@
 #define DJINNI_GENERATED_NJSOPERATIONLISTCALLBACK_HPP
 
 
-#include "../../../../core/src/ledger-core-source-api/api/../../utils/optional.hpp"
-#include "../../../../core/src/ledger-core-source-api/api/Error.hpp"
-#include "../../../../core/src/ledger-core-source-api/api/Operation.hpp"
+#include "../cpp/../../../../core/src/utils/optional.hpp"
+#include "../cpp/Error.hpp"
+#include "../cpp/Operation.hpp"
 #include "NJSOperationCpp.hpp"
 #include <memory>
 #include <vector>
 
 #include <nan.h>
 #include <node.h>
-#include "../../../../core/src/ledger-core-source-api/api/OperationListCallback.hpp"
+#include "../cpp/OperationListCallback.hpp"
 
 using namespace v8;
 using namespace node;

@@ -9,7 +9,7 @@
 
 #include <nan.h>
 #include <node.h>
-#include "../../../../core/src/ledger-core-source-api/api/KeychainEngines.hpp"
+#include "../cpp/KeychainEngines.hpp"
 
 using namespace v8;
 using namespace node;

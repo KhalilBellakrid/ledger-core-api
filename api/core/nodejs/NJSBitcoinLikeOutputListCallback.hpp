@@ -5,16 +5,16 @@
 #define DJINNI_GENERATED_NJSBITCOINLIKEOUTPUTLISTCALLBACK_HPP
 
 
-#include "../../../../core/src/ledger-core-source-api/api/../../utils/optional.hpp"
-#include "../../../../core/src/ledger-core-source-api/api/BitcoinLikeOutput.hpp"
-#include "../../../../core/src/ledger-core-source-api/api/Error.hpp"
+#include "../cpp/../../../../core/src/utils/optional.hpp"
+#include "../cpp/BitcoinLikeOutput.hpp"
+#include "../cpp/Error.hpp"
 #include "NJSBitcoinLikeOutputCpp.hpp"
 #include <memory>
 #include <vector>
 
 #include <nan.h>
 #include <node.h>
-#include "../../../../core/src/ledger-core-source-api/api/BitcoinLikeOutputListCallback.hpp"
+#include "../cpp/BitcoinLikeOutputListCallback.hpp"
 
 using namespace v8;
 using namespace node;

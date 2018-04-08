@@ -5,14 +5,14 @@
 #define DJINNI_GENERATED_NJSGETETHREUMLIKEWALLETCALLBACK_HPP
 
 
-#include "../../../../core/src/ledger-core-source-api/api/Error.hpp"
-#include "../../../../core/src/ledger-core-source-api/api/EthereumLikeWallet.hpp"
+#include "../cpp/Error.hpp"
+#include "../cpp/EthereumLikeWallet.hpp"
 #include "NJSEthereumLikeWalletCpp.hpp"
 #include <memory>
 
 #include <nan.h>
 #include <node.h>
-#include "../../../../core/src/ledger-core-source-api/api/GetEthreumLikeWalletCallback.hpp"
+#include "../cpp/GetEthreumLikeWalletCallback.hpp"
 
 using namespace v8;
 using namespace node;

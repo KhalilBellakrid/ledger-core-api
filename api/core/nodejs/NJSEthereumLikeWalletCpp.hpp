@@ -9,7 +9,7 @@
 
 #include <nan.h>
 #include <node.h>
-#include "../../../../core/src/ledger-core-source-api/api/EthereumLikeWallet.hpp"
+#include "../cpp/EthereumLikeWallet.hpp"
 
 using namespace v8;
 using namespace node;

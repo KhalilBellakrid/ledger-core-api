@@ -5,12 +5,12 @@
 #define DJINNI_GENERATED_NJSWALLET_HPP
 
 
-#include "../../../../core/src/ledger-core-source-api/api/AccountCreationInfo.hpp"
-#include "../../../../core/src/ledger-core-source-api/api/BitcoinLikeNetworkParameters.hpp"
-#include "../../../../core/src/ledger-core-source-api/api/Currency.hpp"
-#include "../../../../core/src/ledger-core-source-api/api/CurrencyUnit.hpp"
-#include "../../../../core/src/ledger-core-source-api/api/ExtendedKeyAccountCreationInfo.hpp"
-#include "../../../../core/src/ledger-core-source-api/api/WalletType.hpp"
+#include "../cpp/AccountCreationInfo.hpp"
+#include "../cpp/BitcoinLikeNetworkParameters.hpp"
+#include "../cpp/Currency.hpp"
+#include "../cpp/CurrencyUnit.hpp"
+#include "../cpp/ExtendedKeyAccountCreationInfo.hpp"
+#include "../cpp/WalletType.hpp"
 #include "NJSAccountCallback.hpp"
 #include "NJSAccountCreationInfoCallback.hpp"
 #include "NJSAccountListCallback.hpp"
@@ -28,7 +28,7 @@
 
 #include <nan.h>
 #include <node.h>
-#include "../../../../core/src/ledger-core-source-api/api/Wallet.hpp"
+#include "../cpp/Wallet.hpp"
 
 using namespace v8;
 using namespace node;

@@ -10,7 +10,7 @@
 
 #include <nan.h>
 #include <node.h>
-#include "../../../../core/src/ledger-core-source-api/api/HashAlgorithmHelper.hpp"
+#include "../cpp/HashAlgorithmHelper.hpp"
 
 using namespace v8;
 using namespace node;

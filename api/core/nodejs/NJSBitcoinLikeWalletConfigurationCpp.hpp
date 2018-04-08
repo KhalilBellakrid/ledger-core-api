@@ -9,7 +9,7 @@
 
 #include <nan.h>
 #include <node.h>
-#include "../../../../core/src/ledger-core-source-api/api/BitcoinLikeWalletConfiguration.hpp"
+#include "../cpp/BitcoinLikeWalletConfiguration.hpp"
 
 using namespace v8;
 using namespace node;

@@ -5,15 +5,15 @@
 #define DJINNI_GENERATED_NJSBITCOINLIKEEXTENDEDPUBLICKEY_HPP
 
 
-#include "../../../../core/src/ledger-core-source-api/api/../../utils/optional.hpp"
-#include "../../../../core/src/ledger-core-source-api/api/BitcoinLikeNetworkParameters.hpp"
+#include "../cpp/../../../../core/src/utils/optional.hpp"
+#include "../cpp/BitcoinLikeNetworkParameters.hpp"
 #include "NJSBitcoinLikeAddressCpp.hpp"
 #include <memory>
 #include <string>
 
 #include <nan.h>
 #include <node.h>
-#include "../../../../core/src/ledger-core-source-api/api/BitcoinLikeExtendedPublicKey.hpp"
+#include "../cpp/BitcoinLikeExtendedPublicKey.hpp"
 
 using namespace v8;
 using namespace node;

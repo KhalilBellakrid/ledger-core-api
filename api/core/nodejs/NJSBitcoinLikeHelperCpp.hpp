@@ -5,7 +5,7 @@
 #define DJINNI_GENERATED_NJSBITCOINLIKEHELPER_HPP
 
 
-#include "../../../../core/src/ledger-core-source-api/api/BitcoinLikePreparedTransaction.hpp"
+#include "../cpp/BitcoinLikePreparedTransaction.hpp"
 #include "NJSAmountCpp.hpp"
 #include "NJSBitcoinLikeOutputCpp.hpp"
 #include "NJSBitcoinLikeTransactionCpp.hpp"
@@ -16,7 +16,7 @@
 
 #include <nan.h>
 #include <node.h>
-#include "../../../../core/src/ledger-core-source-api/api/BitcoinLikeHelper.hpp"
+#include "../cpp/BitcoinLikeHelper.hpp"
 
 using namespace v8;
 using namespace node;

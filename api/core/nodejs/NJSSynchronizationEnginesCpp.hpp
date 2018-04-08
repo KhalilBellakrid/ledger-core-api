@@ -9,7 +9,7 @@
 
 #include <nan.h>
 #include <node.h>
-#include "../../../../core/src/ledger-core-source-api/api/SynchronizationEngines.hpp"
+#include "../cpp/SynchronizationEngines.hpp"
 
 using namespace v8;
 using namespace node;

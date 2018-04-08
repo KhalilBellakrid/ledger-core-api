@@ -5,9 +5,9 @@
 #define DJINNI_GENERATED_NJSOPERATION_HPP
 
 
-#include "../../../../core/src/ledger-core-source-api/api/../../utils/optional.hpp"
-#include "../../../../core/src/ledger-core-source-api/api/OperationType.hpp"
-#include "../../../../core/src/ledger-core-source-api/api/WalletType.hpp"
+#include "../cpp/../../../../core/src/utils/optional.hpp"
+#include "../cpp/OperationType.hpp"
+#include "../cpp/WalletType.hpp"
 #include "NJSAmountCpp.hpp"
 #include "NJSBitcoinLikeOperationCpp.hpp"
 #include "NJSPreferencesCpp.hpp"
@@ -20,7 +20,7 @@
 
 #include <nan.h>
 #include <node.h>
-#include "../../../../core/src/ledger-core-source-api/api/Operation.hpp"
+#include "../cpp/Operation.hpp"
 
 using namespace v8;
 using namespace node;

@@ -5,16 +5,16 @@
 #define DJINNI_GENERATED_NJSCURRENCYLISTCALLBACK_HPP
 
 
-#include "../../../../core/src/ledger-core-source-api/api/../../utils/optional.hpp"
-#include "../../../../core/src/ledger-core-source-api/api/BitcoinLikeNetworkParameters.hpp"
-#include "../../../../core/src/ledger-core-source-api/api/Currency.hpp"
-#include "../../../../core/src/ledger-core-source-api/api/CurrencyUnit.hpp"
-#include "../../../../core/src/ledger-core-source-api/api/Error.hpp"
+#include "../cpp/../../../../core/src/utils/optional.hpp"
+#include "../cpp/BitcoinLikeNetworkParameters.hpp"
+#include "../cpp/Currency.hpp"
+#include "../cpp/CurrencyUnit.hpp"
+#include "../cpp/Error.hpp"
 #include <vector>
 
 #include <nan.h>
 #include <node.h>
-#include "../../../../core/src/ledger-core-source-api/api/CurrencyListCallback.hpp"
+#include "../cpp/CurrencyListCallback.hpp"
 
 using namespace v8;
 using namespace node;

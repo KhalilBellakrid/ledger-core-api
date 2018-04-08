@@ -5,16 +5,16 @@
 #define DJINNI_GENERATED_NJSACCOUNTLISTCALLBACK_HPP
 
 
-#include "../../../../core/src/ledger-core-source-api/api/../../utils/optional.hpp"
-#include "../../../../core/src/ledger-core-source-api/api/Account.hpp"
-#include "../../../../core/src/ledger-core-source-api/api/Error.hpp"
+#include "../cpp/../../../../core/src/utils/optional.hpp"
+#include "../cpp/Account.hpp"
+#include "../cpp/Error.hpp"
 #include "NJSAccountCpp.hpp"
 #include <memory>
 #include <vector>
 
 #include <nan.h>
 #include <node.h>
-#include "../../../../core/src/ledger-core-source-api/api/AccountListCallback.hpp"
+#include "../cpp/AccountListCallback.hpp"
 
 using namespace v8;
 using namespace node;

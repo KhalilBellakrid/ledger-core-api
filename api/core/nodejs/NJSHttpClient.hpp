@@ -5,13 +5,13 @@
 #define DJINNI_GENERATED_NJSHTTPCLIENT_HPP
 
 
-#include "../../../../core/src/ledger-core-source-api/api/HttpRequest.hpp"
+#include "../cpp/HttpRequest.hpp"
 #include "NJSHttpRequestCpp.hpp"
 #include <memory>
 
 #include <nan.h>
 #include <node.h>
-#include "../../../../core/src/ledger-core-source-api/api/HttpClient.hpp"
+#include "../cpp/HttpClient.hpp"
 
 using namespace v8;
 using namespace node;

@@ -5,14 +5,14 @@
 #define DJINNI_GENERATED_NJSEVENT_HPP
 
 
-#include "../../../../core/src/ledger-core-source-api/api/EventCode.hpp"
+#include "../cpp/EventCode.hpp"
 #include "NJSDynamicObjectCpp.hpp"
 #include <cstdint>
 #include <memory>
 
 #include <nan.h>
 #include <node.h>
-#include "../../../../core/src/ledger-core-source-api/api/Event.hpp"
+#include "../cpp/Event.hpp"
 
 using namespace v8;
 using namespace node;

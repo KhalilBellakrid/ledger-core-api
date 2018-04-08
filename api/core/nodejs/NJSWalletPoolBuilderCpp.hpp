@@ -19,7 +19,7 @@
 
 #include <nan.h>
 #include <node.h>
-#include "../../../../core/src/ledger-core-source-api/api/WalletPoolBuilder.hpp"
+#include "../cpp/WalletPoolBuilder.hpp"
 
 using namespace v8;
 using namespace node;

@@ -5,14 +5,14 @@
 #define DJINNI_GENERATED_NJSWEBSOCKETCONNECTION_HPP
 
 
-#include "../../../../core/src/ledger-core-source-api/api/ErrorCode.hpp"
+#include "../cpp/ErrorCode.hpp"
 #include <cstdint>
 #include <memory>
 #include <string>
 
 #include <nan.h>
 #include <node.h>
-#include "../../../../core/src/ledger-core-source-api/api/WebSocketConnection.hpp"
+#include "../cpp/WebSocketConnection.hpp"
 
 using namespace v8;
 using namespace node;

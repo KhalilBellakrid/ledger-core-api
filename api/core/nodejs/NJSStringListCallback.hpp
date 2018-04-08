@@ -5,14 +5,14 @@
 #define DJINNI_GENERATED_NJSSTRINGLISTCALLBACK_HPP
 
 
-#include "../../../../core/src/ledger-core-source-api/api/../../utils/optional.hpp"
-#include "../../../../core/src/ledger-core-source-api/api/Error.hpp"
+#include "../cpp/../../../../core/src/utils/optional.hpp"
+#include "../cpp/Error.hpp"
 #include <string>
 #include <vector>
 
 #include <nan.h>
 #include <node.h>
-#include "../../../../core/src/ledger-core-source-api/api/StringListCallback.hpp"
+#include "../cpp/StringListCallback.hpp"
 
 using namespace v8;
 using namespace node;

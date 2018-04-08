@@ -5,14 +5,14 @@
 #define DJINNI_GENERATED_NJSLOGPRINTER_HPP
 
 
-#include "../../../../core/src/ledger-core-source-api/api/ExecutionContext.hpp"
+#include "../cpp/ExecutionContext.hpp"
 #include "NJSExecutionContext.hpp"
 #include <memory>
 #include <string>
 
 #include <nan.h>
 #include <node.h>
-#include "../../../../core/src/ledger-core-source-api/api/LogPrinter.hpp"
+#include "../cpp/LogPrinter.hpp"
 
 using namespace v8;
 using namespace node;

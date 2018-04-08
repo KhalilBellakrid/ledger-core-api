@@ -5,15 +5,15 @@
 #define DJINNI_GENERATED_NJSAMOUNTCALLBACK_HPP
 
 
-#include "../../../../core/src/ledger-core-source-api/api/../../utils/optional.hpp"
-#include "../../../../core/src/ledger-core-source-api/api/Amount.hpp"
-#include "../../../../core/src/ledger-core-source-api/api/Error.hpp"
+#include "../cpp/../../../../core/src/utils/optional.hpp"
+#include "../cpp/Amount.hpp"
+#include "../cpp/Error.hpp"
 #include "NJSAmountCpp.hpp"
 #include <memory>
 
 #include <nan.h>
 #include <node.h>
-#include "../../../../core/src/ledger-core-source-api/api/AmountCallback.hpp"
+#include "../cpp/AmountCallback.hpp"
 
 using namespace v8;
 using namespace node;

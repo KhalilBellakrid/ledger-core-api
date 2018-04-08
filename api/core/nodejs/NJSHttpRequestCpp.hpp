@@ -5,9 +5,9 @@
 #define DJINNI_GENERATED_NJSHTTPREQUEST_HPP
 
 
-#include "../../../../core/src/ledger-core-source-api/api/../../utils/optional.hpp"
-#include "../../../../core/src/ledger-core-source-api/api/Error.hpp"
-#include "../../../../core/src/ledger-core-source-api/api/HttpMethod.hpp"
+#include "../cpp/../../../../core/src/utils/optional.hpp"
+#include "../cpp/Error.hpp"
+#include "../cpp/HttpMethod.hpp"
 #include "NJSHttpUrlConnection.hpp"
 #include <cstdint>
 #include <memory>
@@ -17,7 +17,7 @@
 
 #include <nan.h>
 #include <node.h>
-#include "../../../../core/src/ledger-core-source-api/api/HttpRequest.hpp"
+#include "../cpp/HttpRequest.hpp"
 
 using namespace v8;
 using namespace node;

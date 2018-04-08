@@ -5,12 +5,12 @@
 #define DJINNI_GENERATED_NJSAMOUNT_HPP
 
 
-#include "../../../../core/src/ledger-core-source-api/api/../../utils/optional.hpp"
-#include "../../../../core/src/ledger-core-source-api/api/BitcoinLikeNetworkParameters.hpp"
-#include "../../../../core/src/ledger-core-source-api/api/Currency.hpp"
-#include "../../../../core/src/ledger-core-source-api/api/CurrencyUnit.hpp"
-#include "../../../../core/src/ledger-core-source-api/api/FormatRules.hpp"
-#include "../../../../core/src/ledger-core-source-api/api/Locale.hpp"
+#include "../cpp/../../../../core/src/utils/optional.hpp"
+#include "../cpp/BitcoinLikeNetworkParameters.hpp"
+#include "../cpp/Currency.hpp"
+#include "../cpp/CurrencyUnit.hpp"
+#include "../cpp/FormatRules.hpp"
+#include "../cpp/Locale.hpp"
 #include "NJSBigIntCpp.hpp"
 #include <cstdint>
 #include <memory>
@@ -18,7 +18,7 @@
 
 #include <nan.h>
 #include <node.h>
-#include "../../../../core/src/ledger-core-source-api/api/Amount.hpp"
+#include "../cpp/Amount.hpp"
 
 using namespace v8;
 using namespace node;

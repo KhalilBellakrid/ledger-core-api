@@ -5,15 +5,15 @@
 #define DJINNI_GENERATED_NJSBITCOINLIKEPREPAREDTRANSACTIONCALLBACK_HPP
 
 
-#include "../../../../core/src/ledger-core-source-api/api/../../utils/optional.hpp"
-#include "../../../../core/src/ledger-core-source-api/api/BitcoinLikePreparedTransaction.hpp"
-#include "../../../../core/src/ledger-core-source-api/api/Error.hpp"
+#include "../cpp/../../../../core/src/utils/optional.hpp"
+#include "../cpp/BitcoinLikePreparedTransaction.hpp"
+#include "../cpp/Error.hpp"
 #include "NJSBitcoinLikeOutputCpp.hpp"
 #include <string>
 
 #include <nan.h>
 #include <node.h>
-#include "../../../../core/src/ledger-core-source-api/api/BitcoinLikePreparedTransactionCallback.hpp"
+#include "../cpp/BitcoinLikePreparedTransactionCallback.hpp"
 
 using namespace v8;
 using namespace node;

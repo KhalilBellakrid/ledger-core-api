@@ -5,8 +5,8 @@
 #define DJINNI_GENERATED_NJSDYNAMICARRAY_HPP
 
 
-#include "../../../../core/src/ledger-core-source-api/api/../../utils/optional.hpp"
-#include "../../../../core/src/ledger-core-source-api/api/DynamicType.hpp"
+#include "../cpp/../../../../core/src/utils/optional.hpp"
+#include "../cpp/DynamicType.hpp"
 #include "NJSDynamicObjectCpp.hpp"
 #include <cstdint>
 #include <memory>
@@ -15,7 +15,7 @@
 
 #include <nan.h>
 #include <node.h>
-#include "../../../../core/src/ledger-core-source-api/api/DynamicArray.hpp"
+#include "../cpp/DynamicArray.hpp"
 
 using namespace v8;
 using namespace node;

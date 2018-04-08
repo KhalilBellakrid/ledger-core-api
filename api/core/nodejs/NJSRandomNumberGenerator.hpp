@@ -10,7 +10,7 @@
 
 #include <nan.h>
 #include <node.h>
-#include "../../../../core/src/ledger-core-source-api/api/RandomNumberGenerator.hpp"
+#include "../cpp/RandomNumberGenerator.hpp"
 
 using namespace v8;
 using namespace node;

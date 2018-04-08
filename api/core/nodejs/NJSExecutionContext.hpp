@@ -5,14 +5,14 @@
 #define DJINNI_GENERATED_NJSEXECUTIONCONTEXT_HPP
 
 
-#include "../../../../core/src/ledger-core-source-api/api/Runnable.hpp"
+#include "../cpp/Runnable.hpp"
 #include "NJSRunnableCpp.hpp"
 #include <cstdint>
 #include <memory>
 
 #include <nan.h>
 #include <node.h>
-#include "../../../../core/src/ledger-core-source-api/api/ExecutionContext.hpp"
+#include "../cpp/ExecutionContext.hpp"
 
 using namespace v8;
 using namespace node;

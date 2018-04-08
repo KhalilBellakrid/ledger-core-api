@@ -5,10 +5,10 @@
 #define DJINNI_GENERATED_NJSWALLETPOOL_HPP
 
 
-#include "../../../../core/src/ledger-core-source-api/api/../../utils/optional.hpp"
-#include "../../../../core/src/ledger-core-source-api/api/BitcoinLikeNetworkParameters.hpp"
-#include "../../../../core/src/ledger-core-source-api/api/Currency.hpp"
-#include "../../../../core/src/ledger-core-source-api/api/CurrencyUnit.hpp"
+#include "../cpp/../../../../core/src/utils/optional.hpp"
+#include "../cpp/BitcoinLikeNetworkParameters.hpp"
+#include "../cpp/Currency.hpp"
+#include "../cpp/CurrencyUnit.hpp"
 #include "NJSBlockCallback.hpp"
 #include "NJSCurrencyCallback.hpp"
 #include "NJSCurrencyListCallback.hpp"
@@ -32,7 +32,7 @@
 
 #include <nan.h>
 #include <node.h>
-#include "../../../../core/src/ledger-core-source-api/api/WalletPool.hpp"
+#include "../cpp/WalletPool.hpp"
 
 using namespace v8;
 using namespace node;

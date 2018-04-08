@@ -5,15 +5,15 @@
 #define DJINNI_GENERATED_NJSWALLETCALLBACK_HPP
 
 
-#include "../../../../core/src/ledger-core-source-api/api/../../utils/optional.hpp"
-#include "../../../../core/src/ledger-core-source-api/api/Error.hpp"
-#include "../../../../core/src/ledger-core-source-api/api/Wallet.hpp"
+#include "../cpp/../../../../core/src/utils/optional.hpp"
+#include "../cpp/Error.hpp"
+#include "../cpp/Wallet.hpp"
 #include "NJSWalletCpp.hpp"
 #include <memory>
 
 #include <nan.h>
 #include <node.h>
-#include "../../../../core/src/ledger-core-source-api/api/WalletCallback.hpp"
+#include "../cpp/WalletCallback.hpp"
 
 using namespace v8;
 using namespace node;

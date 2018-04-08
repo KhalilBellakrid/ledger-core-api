@@ -12,7 +12,7 @@
 
 #include <nan.h>
 #include <node.h>
-#include "../../../../core/src/ledger-core-source-api/api/BigInt.hpp"
+#include "../cpp/BigInt.hpp"
 
 using namespace v8;
 using namespace node;

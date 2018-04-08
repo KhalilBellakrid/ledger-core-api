@@ -5,7 +5,7 @@
 #define DJINNI_GENERATED_NJSTRUSTINDICATOR_HPP
 
 
-#include "../../../../core/src/ledger-core-source-api/api/TrustLevel.hpp"
+#include "../cpp/TrustLevel.hpp"
 #include <cstdint>
 #include <memory>
 #include <string>
@@ -13,7 +13,7 @@
 
 #include <nan.h>
 #include <node.h>
-#include "../../../../core/src/ledger-core-source-api/api/TrustIndicator.hpp"
+#include "../cpp/TrustIndicator.hpp"
 
 using namespace v8;
 using namespace node;

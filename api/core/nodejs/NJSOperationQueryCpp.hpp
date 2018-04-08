@@ -5,7 +5,7 @@
 #define DJINNI_GENERATED_NJSOPERATIONQUERY_HPP
 
 
-#include "../../../../core/src/ledger-core-source-api/api/OperationOrderKey.hpp"
+#include "../cpp/OperationOrderKey.hpp"
 #include "NJSOperationListCallback.hpp"
 #include "NJSQueryFilterCpp.hpp"
 #include <cstdint>
@@ -13,7 +13,7 @@
 
 #include <nan.h>
 #include <node.h>
-#include "../../../../core/src/ledger-core-source-api/api/OperationQuery.hpp"
+#include "../cpp/OperationQuery.hpp"
 
 using namespace v8;
 using namespace node;

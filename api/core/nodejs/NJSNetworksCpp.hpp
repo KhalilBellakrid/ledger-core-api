@@ -5,12 +5,12 @@
 #define DJINNI_GENERATED_NJSNETWORKS_HPP
 
 
-#include "../../../../core/src/ledger-core-source-api/api/BitcoinLikeNetworkParameters.hpp"
+#include "../cpp/BitcoinLikeNetworkParameters.hpp"
 #include <memory>
 
 #include <nan.h>
 #include <node.h>
-#include "../../../../core/src/ledger-core-source-api/api/Networks.hpp"
+#include "../cpp/Networks.hpp"
 
 using namespace v8;
 using namespace node;

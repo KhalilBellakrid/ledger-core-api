@@ -5,14 +5,14 @@
 #define DJINNI_GENERATED_NJSEXTENDEDKEYACCOUNTCREATIONINFOCALLBACK_HPP
 
 
-#include "../../../../core/src/ledger-core-source-api/api/../../utils/optional.hpp"
-#include "../../../../core/src/ledger-core-source-api/api/Error.hpp"
-#include "../../../../core/src/ledger-core-source-api/api/ExtendedKeyAccountCreationInfo.hpp"
+#include "../cpp/../../../../core/src/utils/optional.hpp"
+#include "../cpp/Error.hpp"
+#include "../cpp/ExtendedKeyAccountCreationInfo.hpp"
 #include <string>
 
 #include <nan.h>
 #include <node.h>
-#include "../../../../core/src/ledger-core-source-api/api/ExtendedKeyAccountCreationInfoCallback.hpp"
+#include "../cpp/ExtendedKeyAccountCreationInfoCallback.hpp"
 
 using namespace v8;
 using namespace node;

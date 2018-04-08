@@ -5,8 +5,8 @@
 #define DJINNI_GENERATED_NJSBITCOINLIKEACCOUNT_HPP
 
 
-#include "../../../../core/src/ledger-core-source-api/api/BitcoinLikePickingStrategy.hpp"
-#include "../../../../core/src/ledger-core-source-api/api/BitcoinLikeTransactionRequest.hpp"
+#include "../cpp/BitcoinLikePickingStrategy.hpp"
+#include "../cpp/BitcoinLikeTransactionRequest.hpp"
 #include "NJSAmountCpp.hpp"
 #include "NJSBitcoinLikeOutputCpp.hpp"
 #include "NJSBitcoinLikeOutputListCallback.hpp"
@@ -20,7 +20,7 @@
 
 #include <nan.h>
 #include <node.h>
-#include "../../../../core/src/ledger-core-source-api/api/BitcoinLikeAccount.hpp"
+#include "../cpp/BitcoinLikeAccount.hpp"
 
 using namespace v8;
 using namespace node;

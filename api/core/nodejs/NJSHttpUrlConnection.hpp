@@ -5,8 +5,8 @@
 #define DJINNI_GENERATED_NJSHTTPURLCONNECTION_HPP
 
 
-#include "../../../../core/src/ledger-core-source-api/api/Error.hpp"
-#include "../../../../core/src/ledger-core-source-api/api/HttpReadBodyResult.hpp"
+#include "../cpp/Error.hpp"
+#include "../cpp/HttpReadBodyResult.hpp"
 #include <cstdint>
 #include <string>
 #include <unordered_map>
@@ -14,7 +14,7 @@
 
 #include <nan.h>
 #include <node.h>
-#include "../../../../core/src/ledger-core-source-api/api/HttpUrlConnection.hpp"
+#include "../cpp/HttpUrlConnection.hpp"
 
 using namespace v8;
 using namespace node;

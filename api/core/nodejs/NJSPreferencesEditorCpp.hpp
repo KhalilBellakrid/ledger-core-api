@@ -12,7 +12,7 @@
 
 #include <nan.h>
 #include <node.h>
-#include "../../../../core/src/ledger-core-source-api/api/PreferencesEditor.hpp"
+#include "../cpp/PreferencesEditor.hpp"
 
 using namespace v8;
 using namespace node;

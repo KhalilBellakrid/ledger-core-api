@@ -11,7 +11,7 @@
 
 #include <nan.h>
 #include <node.h>
-#include "../../../../core/src/ledger-core-source-api/api/Secp256k1.hpp"
+#include "../cpp/Secp256k1.hpp"
 
 using namespace v8;
 using namespace node;
